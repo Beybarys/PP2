@@ -21,7 +21,6 @@ namespace task1
             FileStream a = new FileStream(@"C:\Users\Acer\Desktop\Proga\week2\Task1\Writeline.txt", FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(a);
             string s = sr.ReadToEnd();
-            Console.WriteLine(s);
             if (pal(s)) 
             {
                 Console.WriteLine("Yes");

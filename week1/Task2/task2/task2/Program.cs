@@ -12,7 +12,8 @@ namespace task2
         int id, year;
         public Student(string name, int id)
         {
-
+            this.name = name;
+            this.id = id;
         }
         public String GetName()
         {
@@ -31,7 +32,7 @@ namespace task2
     {
         static void Main(string[] args)
         {
-
+            
         }
     }
 }
